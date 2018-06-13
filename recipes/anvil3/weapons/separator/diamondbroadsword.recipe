@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "diamond", "count" : 30 },
+	{ "item" : "durasteelbar", "count" : 15 },
+	{ "item" : "logblock", "count" : 100 },
+	{ "item" : "emeraldbroadsword", "count" : 1 }
+  ],
+  "output" : { "item" : "diamondbroadsword", "count" : 1 },
+  "groups" : [ "craftingseparator", "weapons", "all" ]
+}

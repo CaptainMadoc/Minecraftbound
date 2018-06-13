@@ -1,0 +1,12 @@
+{
+	"itemName" : "minecraftwoodboltammo",
+	"price" : 5,
+	"rarity" : "common",
+	"maxStack" : 640,
+	"category" : "craftingMaterial",
+	"inventoryIcon" : "minecraftwoodboltammo.png",
+	"description" : "test",
+	"shortdescription" : "Minecraft Wooden Bolt",
+	"projectile" : "minecraftwoodboltproj",
+	"projectileConfig" : {"speed" : 60, "power" : 10}
+}

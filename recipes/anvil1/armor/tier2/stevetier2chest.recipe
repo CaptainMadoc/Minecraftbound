@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "tungstenbar", "count" : 8 },
+	{ "item" : "stevetier1chest", "count" : 1 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "stevetier2chest", "count" : 1 },
+  "groups" : [ "craftinganvil", "armours", "all" ]
+}

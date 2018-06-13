@@ -1,0 +1,44 @@
+{
+  "itemName" : "goldenbroadsword",
+  "price" : 500,
+  "level" : 3,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "This golden blade is an upgraded version of the iron broadsword.",
+  "shortdescription" : "Golden Broadsword",
+  "tooltipKind" : "sword",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon", "melee", "broadsword"],
+
+  "inventoryIcon" : "goldenbroadswordicon.png",
+
+  "animation" : "/items/active/weapons/melee/broadsword/energybroadsword.animation",
+  "animationParts" : {
+    "handle" : "goldenhandle.png",
+    "handleFullbright" : "goldenhandlefullbright.png",
+    "blade" : "blade.png"
+  },
+
+  "scripts" : ["/items/active/weapons/melee/energymeleeweapon.lua"],
+
+  "activeTime" : 3.0,
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.83,
+    "baseDps" : 11.0,
+
+    "stances" : {
+      "windup1" : {
+        "duration" : 0.15
+      }
+    }
+  },
+
+  "altAbilityType" : "flipslash",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

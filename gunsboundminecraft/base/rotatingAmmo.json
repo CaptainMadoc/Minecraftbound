@@ -1,0 +1,18 @@
+[
+	"/gunsboundminecraft/modules/weapon.lua",
+	"/gunsboundminecraft/modules/attachment.lua",
+	//"/gunsboundminecraft/modules/magazine.lua",
+	"/gunsboundminecraft/modules/rotatingMagazine.lua",
+	"/gunsboundminecraft/modules/camera.lua",
+	"/gunsboundminecraft/modules/aim.lua",
+	
+	"/gunsboundminecraft/modules/portraitprocessor.lua",
+	"/gunsboundminecraft/modules/arms.lua",
+	"/gunsboundminecraft/modules/transforms.lua",
+	"/gunsboundminecraft/modules/animation.lua",
+	
+	"/gunsboundminecraft/modules/portraitprocessor.lua",
+	"/gunsboundminecraft/modules/flashlightmanager.lua",
+	"/gunsboundminecraft/modules/lasermanager.lua",
+	"/gunsboundminecraft/modules/uimanager.lua"
+]

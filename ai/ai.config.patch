@@ -1,0 +1,10 @@
+[{
+		"op" : "add",
+		"path" : "/species/minecraftsteve",
+		"value" : {
+			"aiFrames" : "minecraftsteveAI.png",
+			"portraitFrames" : "portraits/minecraftsteveportrait.png",
+			"staticFrames" : "staticminecraftsteve.png"	
+		}
+	}
+]

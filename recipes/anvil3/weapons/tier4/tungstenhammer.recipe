@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "diamond", "count" : 6 },
+    { "item" : "logblock", "count" : 20 },
+	{ "item" : "climbingrope", "count" : 2 }
+  ],
+  "output" : { "item" : "diamondpickhammer", "count" : 1 },
+  "groups" : [ "craftinganvil3", "weapons", "all" ]
+}

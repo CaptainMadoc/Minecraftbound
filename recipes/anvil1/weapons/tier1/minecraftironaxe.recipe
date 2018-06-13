@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 3 },
+    { "item" : "climbingrope", "count" : 2 },
+	{ "item" : "logblock", "count" : 20 }
+  ],
+  "output" : { "item" : "minecraftironaxe", "count" : 1 },
+  "groups" : [ "craftinganvil", "weapons", "all" ]
+}

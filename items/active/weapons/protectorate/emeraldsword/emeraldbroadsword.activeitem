@@ -1,0 +1,44 @@
+{
+  "itemName" : "emeraldbroadsword",
+  "price" : 960,
+  "level" : 6,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "A Sword made out of green coloured Diamonds.",
+  "shortdescription" : "Emerald Broadsword",
+  "tooltipKind" : "sword",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon", "melee", "broadsword"],
+
+  "inventoryIcon" : "emeraldbroadswordicon.png",
+
+  "animation" : "/items/active/weapons/melee/broadsword/energybroadsword.animation",
+  "animationParts" : {
+    "handle" : "emeraldhandle.png",
+    "handleFullbright" : "emeraldhandlefullbright.png",
+    "blade" : "emeraldblade.png"
+  },
+
+  "scripts" : ["/items/active/weapons/melee/energymeleeweapon.lua"],
+
+  "activeTime" : 3.0,
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.83,
+    "baseDps" : 9.0,
+
+    "stances" : {
+      "windup1" : {
+        "duration" : 0.15
+      }
+    }
+  },
+
+  "altAbilityType" : "flipslash",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

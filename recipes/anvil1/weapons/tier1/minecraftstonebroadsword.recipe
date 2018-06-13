@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "cobblestonematerial", "count" : 25 },
+    { "item" : "climbingrope", "count" : 2 },
+	{ "item" : "minecraftstick", "count" : 1 }
+  ],
+  "output" : { "item" : "minecraftstonebroadsword", "count" : 1 },
+  "groups" : [ "craftinganvil", "weapons", "all" ]
+}

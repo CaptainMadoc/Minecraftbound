@@ -1,0 +1,11 @@
+{
+  "version" : "0.8.4",
+  "tags" : "Species",
+  "author" : "Kekmaster",
+  "description" : "v0.8.4: Sword sound Update\n\nv0.8.3: Added Tier 4 Armor (Steve Armor)\n\nThis is my first mod.\n\nThis Mod adds the Steve from Minecraft as a playable Character.\n\nCurrent features:\n-Playable Steve\n-Minecraft Weapons (Golden Sword, Diamond Sword, Diamond Pickaxe ect.)\n-Minecraft Tier 1-4 Armor\n-Custom AI\n-Steve Camps\n\nFuture Plans:\n-Towns\n-Tier 5+6 Armor\n\n\nI hope you like this mod and maybe you can give me some feedback! :)",
+  "name" : "Minecraft Steve Race v0.8.4",
+  "path" : ".",
+  "friendlyName" : "Minecraft Steve Race v0.8.4",
+  "steamContentId" : "1400758007",
+  "link" : "steam://url/CommunityFilePage/1400758007"
+}

@@ -1,0 +1,43 @@
+{
+  "itemName" : "minecraftironaxe",
+  "level" : 1,
+  "price" : 480,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "This axe is surprisingly hefty for its size.",
+  "shortdescription" : "Iron Axe",
+  "tooltipKind" : "sword",
+  "category" : "axe",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","axe"],
+
+  "inventoryIcon" : "minecraftironaxe.png",
+
+  "animation" : "/items/active/weapons/melee/axe/axe.animation",
+  "animationParts" : {
+    "blade" : "minecraftironaxe.png",
+    "handle" : ""
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_axe.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "aimOffset" : -1.0,
+
+  "primaryAbilityType" : "axecleave",
+  "primaryAbility" : {
+    "fireTime" : 0.9,
+    "baseDps" : 10.0,
+    "damageConfig" : {
+      "knockback" : 20
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

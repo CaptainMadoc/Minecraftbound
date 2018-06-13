@@ -1,0 +1,17 @@
+[
+	{
+		"op": "add",
+		"path": "/initialquests/minecraftsteve",
+		"value": [
+			"protectorate"
+		]
+	},
+	{
+		"op": "add",
+		"path": "/pronounGenders/minecraftsteve",
+		"value": {
+			"male": "neutral",
+			"female": "neutral"
+		}
+	}
+]

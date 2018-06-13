@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "stonebroadsword", "count" : 1 },
+	{ "item" : "goldenbroadsword", "count" : 1 },
+	{ "item" : "emeraldbroadsword", "count" : 1 },
+	{ "item" : "diamondbroadsword", "count" : 1 },
+	{ "item" : "solariumstar", "count" : 30 }
+  ],
+  "output" : { "item" : "stevebroadsword", "count" : 1 },
+  "groups" : [ "craftingseparator", "weapons", "all" ]
+}

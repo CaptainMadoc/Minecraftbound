@@ -1,0 +1,25 @@
+[
+{ "op" : "add", "path" : "/defaultCodexes/minecraftsteve", "value" : [ "protectorate1", "protectorate2", "minecraftstevediary" ] },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : {"item":"diamondbroadsword"} },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : {"item":"goldenbroadsword"} },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : {"item":"diamondpickhammer"} },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : {"item":"stevetier1chest"} },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : {"item":"stevetier1head"} },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : {"item":"stevetier1pants"} },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : {"item":"stonebroadsword"} },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : {"item":"emeraldbroadsword"} },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : {"item":"stevetier2chest"} },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : {"item":"stevetier2head"} },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : {"item":"stevetier2pants"} },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : {"item":"minecraftironaxe"} },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : {"item":"stevebroadsword"} },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : {"item":"minecraftstick"} },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : {"item":"stevetier3chest"} },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : {"item":"stevetier3head"} },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : {"item":"stevetier3pants"} },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : {"item":"stevetier4chest"} },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : {"item":"stevetier4head"} },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : {"item":"stevetier4pants"} }
+]
+
+

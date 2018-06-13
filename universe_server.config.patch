@@ -1,0 +1,16 @@
+[
+	{ "op" : "add",
+		"path" : "/speciesShips/minecraftsteve",
+		"value" : [
+		    "/ships/minecraftsteve/minecraftstevet0.structure",
+			"/ships/minecraftsteve/minecraftstevet1.structure",
+			"/ships/minecraftsteve/minecraftstevet2.structure",
+			"/ships/minecraftsteve/minecraftstevet3.structure",
+			"/ships/minecraftsteve/minecraftstevet4.structure",
+			"/ships/minecraftsteve/minecraftstevet5.structure",
+			"/ships/minecraftsteve/minecraftstevet6.structure",
+			"/ships/minecraftsteve/minecraftstevet7.structure",
+			"/ships/minecraftsteve/minecraftstevet8.structure"
+		]
+	}
+]

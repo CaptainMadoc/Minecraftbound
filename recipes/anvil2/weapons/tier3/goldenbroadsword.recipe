@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "stonebroadsword", "count" : 1 },
+    { "item" : "goldbar", "count" : 15 }
+	
+  ],
+  "output" : { "item" : "goldenbroadsword", "count" : 1 },
+  "groups" : [ "craftinganvil2", "weapons", "all" ]
+}

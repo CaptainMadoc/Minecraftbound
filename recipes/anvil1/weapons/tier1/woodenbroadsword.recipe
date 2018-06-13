@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "logblock", "count" : 25 },
+	{ "item" : "timber", "count" : 25 },
+	{ "item" : "climbingrope", "count" : 1 }	
+  ],
+  "output" : { "item" : "woodenbroadsword", "count" : 1 },
+  "groups" : [ "plain", "objects", "all", "tools" ]
+}
