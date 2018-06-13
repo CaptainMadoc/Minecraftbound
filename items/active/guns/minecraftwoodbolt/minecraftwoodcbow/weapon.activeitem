@@ -225,27 +225,27 @@
 			
 			"L_offset" : {
 				"transform" : {
-					"position" : [1.25, 0.125]
+					"position" : [0.875, 0]
 				}
 			},
 			"R_arm1" : {
 				"transform" : {
-					"rotation" : 15
+					"rotation" : 0
 				}
 			},
 			"R_arm2" : {
 				"transform" : {
-					"rotation" : -15
+					"rotation" : 0
 				}
 			},
 			"L_arm1" : {
 				"transform" : {
-					"rotation" : -5
+					"rotation" : 0
 				}
 			},
 			"L_arm2" : {
 				"transform" : {
-					"rotation" : 15
+					"rotation" : 0
 				}
 			},
 			
@@ -254,11 +254,14 @@
 				"interpolated" : false,
 				"transform" : {
 					"rotationPoint" : [1.5625, 0.8125],
-					"position" : [-0.5, -0.53125]
+					"position" : [-0.5625, -0.6875]
 				}
 			},
 			"bowempty" : {
-				"interpolated" : false
+				"interpolated" : false,
+				"transform" : {
+					"scale" : [0, 0]
+				}
 			},
 			"mag" : {
 				"interpolated" : false

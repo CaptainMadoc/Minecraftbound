@@ -8,5 +8,5 @@
 	"description" : "test",
 	"shortdescription" : "Minecraft Wooden Bolt",
 	"projectile" : "minecraftwoodboltproj",
-	"projectileConfig" : {"speed" : 60, "power" : 10}
+	"projectileConfig" : {"speed" : 6, "power" : 10}
 }
