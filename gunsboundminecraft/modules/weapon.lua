@@ -35,7 +35,10 @@ function weapon:init()
 	activeItem.setScriptedAnimationParameter("entityID", activeItem.ownerEntityId())
 	self.stats = config.getParameter("gunStats")
 	self.fireSounds = config.getParameter("fireSounds",jarray())
-	animator.setSoundPool("fireSounds",self.fireSounds or jarray())
+	for i,v in pairs(self.fireSounds) do
+		self.fireSounds[i] = processDirectory(v)
+	end
+	animator.setSoundPool("fireSounds", self.fireSounds)
 	self.load = config.getParameter("gunLoad")
 	self.burstDelay = config.getParameter("burstCooldown", 0.4)
 	self.fireTypes = config.getParameter("fireTypes")
@@ -74,9 +77,6 @@ function weapon:debug(dt)
 	world.debugPoint(self:rel(animator.partPoint("gun", "muzzle_begin")), "green")
 	world.debugPoint(self:rel(animator.partPoint("gun", "muzzle_end")), "red")
 	world.debugLine(self:rel(animator.partPoint("gun", "muzzle_begin")),self:rel(weapon:calculateInAccuracy(animator.partPoint("gun", "muzzle_end"))), "red")
-	--world.debugText("inAccuracy = "..(self:getInAccuracy()), "", vec2.add(mcontroller.position(), {0,1}), "green")
-	--world.debugText("magazine = "..(#magazine.storage), "", vec2.add(mcontroller.position(), {0,2}), "green")
-	--world.debugText("load = "..sb.printJson(self.load or {}), "", vec2.add(mcontroller.position(), {0,3}), "green")
 end
 
 function weapon:angle()

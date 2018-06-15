@@ -106,6 +106,7 @@ function realInit(dt)
 	data["selected"] = false
 	data["load"] = false
 	data["fired"] = false
+	data["althanded"] = false
 	data["fireSelect"] = "auto"
 	data["inAccuracy"] = 1
 	data["muzzleDistance"] = {0,0}
@@ -124,8 +125,11 @@ end
 
 function realUpdate(dt)
 	localAnimator.clearDrawables()
-	position = lerp(position, activeItemAnimation.ownerPosition(), 0.5)
-	
+	if data["althanded"] then
+		position = lerp(position, vec2.add(activeItemAnimation.ownerPosition(), {0,-1}), 0.5)
+	else
+		position = lerp(position, activeItemAnimation.ownerPosition(), 0.5)
+	end
 	--ammo Display
 	local matt = {
 		{15 / data["maxMagazine"],0,0},
@@ -158,7 +162,11 @@ function realUpdate(dt)
 	
 	--Fire mode display
 	if data["fireSelect"] then
-		localAnimator.addDrawable({image = "/gunsboundminecraft/ui/"..data["fireSelect"]..".png", position = vec2.add(activeItemAnimation.ownerAimPosition(), {0, -1}), fullbright = true}, "overlay")	
+		local offset = {0,0}
+		if data["althanded"] then
+			offset = {0,-1}
+		end
+		localAnimator.addDrawable({image = "/gunsboundminecraft/ui/"..data["fireSelect"]..".png", position = vec2.add(vec2.add(activeItemAnimation.ownerAimPosition(), {0, -1}), offset), fullbright = true}, "overlay")	
 	end
 	
 	--crosshair radius

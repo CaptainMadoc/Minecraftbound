@@ -59,7 +59,7 @@
 						"frames" : 3,
 						"mode" : "transition",
 						"transition" : "off",
-						"cycle" : 0.05,
+						"cycle" : 0.1,
 						"properties" : {
 							"lightsOn" : ["muzzleFlash"]
 						}
@@ -92,7 +92,7 @@
 		"muzzleFlash" : {
 			"pointBeam" : 0,
 			"pointAngle" : 0,
-			"color" : [0, 0, 0],
+			"color" : [200, 200, 0],
 			"pointLight" : false,
 			"transformationGroups" : ["muzzleFlashLight"],
 			"active" : false,
