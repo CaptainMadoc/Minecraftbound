@@ -125,6 +125,15 @@
 						"transformationGroups" : ["bowempty", "gun", "base"]
 					}
 				},
+				"bownotempty" : {
+					"properties" : {
+						"zLevel" : 18,
+						"centered" : false,
+						"image" : "bownotempty.png",
+						"offset" : [0.0, 0.0],
+						"transformationGroups" : ["bownotempty", "gun", "base"]
+					}
+				},
 				
 				"gun" : {
 					"properties" : {
@@ -261,6 +270,12 @@
 				"interpolated" : false,
 				"transform" : {
 					"scale" : [0, 0]
+				}
+			},
+			"bownotempty" : {
+				"interpolated" : false,
+				"transform" : {
+					"scale" : [1, 1]
 				}
 			},
 			"mag" : {
