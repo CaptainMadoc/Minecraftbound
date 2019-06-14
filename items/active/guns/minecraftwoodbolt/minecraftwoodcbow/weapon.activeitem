@@ -69,7 +69,7 @@
 	},
 	
 	"gunStats" : {
-		"maxMagazine" : 100,
+		"maxMagazine" : 1,
 		"aimLookRatio" : 0.125,
 		"burst" : 3,
 		"recoil" : 0,
@@ -234,12 +234,17 @@
 			
 			"L_offset" : {
 				"transform" : {
-					"position" : [0.875, 0]
+					"position" : [0.5, 0.125]
+				}
+			},
+			"R_offset" : {
+				"transform" : {
+					"position" : [-0.25, 0.125]
 				}
 			},
 			"R_arm1" : {
 				"transform" : {
-					"rotation" : 0
+					"rotation" : -5
 				}
 			},
 			"R_arm2" : {
@@ -262,8 +267,8 @@
 			"gun" : {
 				"interpolated" : false,
 				"transform" : {
-					"rotationPoint" : [1.5625, 0.8125],
-					"position" : [-0.5625, -0.6875]
+					"rotationPoint" : [0.625, 1.125],
+					"position" : [-0.75, -0.9375]
 				}
 			},
 			"bowempty" : {
