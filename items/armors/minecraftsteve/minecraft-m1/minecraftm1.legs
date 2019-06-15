@@ -1,55 +1,46 @@
 {
-  "itemName" : "stevetier1chest",
-  "price" : 800,
-  "inventoryIcon" : "icons.png:chest",
+  "itemName" : "minecraftm1legs",
+  "price" : 320,
+  "inventoryIcon" : "icons.png:pants",
   "maxStack" : 1,
   "rarity" : "Common",
-  "category" : "chestarmour",
-  "description" : "A sleeveless iron plated vest that offers reliable protection.",
-  "shortdescription" : "Iron Chestplate",
+  "category" : "legarmour",
+  "description" : "",
+  "shortdescription" : "Wooden Legplates",
   "tooltipKind" : "armor",
 
-  "maleFrames" : {
-    "body" : "chestm.png",
-    "backSleeve" : "bsleeve.png",
-    "frontSleeve" : "fsleeve.png"
-  },
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
 
-  "femaleFrames" : {
-    "body" : "chestf.png",
-    "backSleeve" : "bsleeve.png",
-    "frontSleeve" : "fsleeve.png"
-  },
-
-"level" : 1,
+  "level" : 1,
   "leveledStatusEffects" : [
     {
       "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
       "stat" : "powerMultiplier",
-      "baseMultiplier" : 1.25
+      "baseMultiplier" : 1.1
     },
     {
       "levelFunction" : "standardArmorLevelProtectionMultiplier",
       "stat" : "protection",
-      "amount" : 0.5
+      "amount" : 0.2
     },
     {
       "levelFunction" : "standardArmorLevelMaxEnergyMultiplier",
       "stat" : "maxEnergy",
-      "amount" : 5
+      "amount" : 2
     },
     {
       "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
       "stat" : "maxHealth",
-      "amount" : 5
+      "amount" : 2
     }
   ],
 
   "itemTags" : [ "tier1armour" ],
 
   "colorOptions" : [
-    // OLIVE
-    { "ffca8a" : "b5b5b5", "e0975c" : "808080", "a85636" : "4f563c", "6f2919" : "2c3712" },
+    // DENIM
+    { "ffca8a" : "767ab6", "e0975c" : "616494", "a85636" : "3a3d71", "6f2919" : "282a59" },
     // BLACK
     { "ffca8a" : "838383", "e0975c" : "555555", "a85636" : "383838", "6f2919" : "151515" },
     // GREY

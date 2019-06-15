@@ -87,7 +87,6 @@
 
 	"gunAnimations" : {
 		"shoot" : "shoot",
-		"cock" : "cock",
 		"dry" : "dry",
 		"reload" : "reload",
 		
