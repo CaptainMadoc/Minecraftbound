@@ -10,7 +10,7 @@
 	//API scripts
 	"scriptClass" : "/gunsboundminecraft/base/scripts.json",
 	"scripts" : ["/gunsboundminecraft/scripts/main.lua"],
-	"animationScripts" : ["/gunsboundminecraft/ui/main.lua"],
+	"animationScripts" : ["/gunsboundminecraft/ui/woodcbow.lua"],
 	"scriptDelta" : 1,
 
 	//item settings
@@ -18,6 +18,8 @@
 	"maxStack" : 1,
 	"price" : 0,
 	"twoHanded" : true,
+	
+	"uiShell" : "ammo.png",
 	
 	"animationsKeyFrames" : "default.animation",
 	"compatibleAmmo" : "/items/active/ammoGroup/minecraftwoodbolt.json",
@@ -152,8 +154,8 @@
 						"attachment_grip_pos" : [2.375,0.875],
 						"attachment_grip_end" : [2.5,0.875],
 
-						"muzzle_begin" : [2.3, 1.15],
-						"muzzle_end" : [2.375, 1.15], 
+						"muzzle_begin" : [2.3, 1.25],
+						"muzzle_end" : [2.375, 1.25], 
 						"transformationGroups" : ["gun", "base"]
 					}
 				},
