@@ -1,0 +1,19 @@
+{
+  "projectileName" : "gb12gaugepellet",
+  "image" : "gb12gaugeproj.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "pointLight" : false,
+  "actionOnHit" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    },
+    {
+      "action" : "config",
+      "file" : "/fx/gbbulletimpact/action.config"
+    }
+  ]
+}
+
+

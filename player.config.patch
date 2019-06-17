@@ -19,7 +19,27 @@
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : {"item":"stevetier3pants"} },
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : {"item":"stevetier4chest"} },
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : {"item":"stevetier4head"} },
-{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : {"item":"stevetier4pants"} }
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : {"item":"stevetier4pants"} },
+    {
+        "path" : "/defaultBlueprints/tier1/-",
+        "op" : "add",
+        "value" : {"item" : "minecraftgunpart"}
+    },
+    {
+        "path" : "/defaultBlueprints/tier1/-",
+        "op" : "add",
+        "value" : {"item" : "minecraftammobox"}
+    },
+    {
+        "path" : "/defaultBlueprints/tier1/-",
+        "op" : "add",
+        "value" : {"item" : "minecraftattachmentsremover"}
+    },
+    {
+        "path" : "/defaultBlueprints/tier1/-",
+        "op" : "add",
+        "value" : {"item" : "minecraftguncrafterstandard"}
+    }
 ]
 
 

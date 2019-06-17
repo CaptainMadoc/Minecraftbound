@@ -1,0 +1,16 @@
+{
+  "projectileName" : "gb765longueproj",
+  "image" : "gb765longueproj.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "pointLight" : false,
+  "actionOnHit" : [
+    {
+      "action" : "config",
+      "file" : "/fx/gbbulletimpact/action.config"
+    }
+  ],
+  "power" : 20.0
+}
+
+

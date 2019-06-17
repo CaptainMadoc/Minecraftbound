@@ -1,0 +1,10 @@
+{
+	"itemName" : "minecraftgunpart",
+	"price" : 5,
+	"rarity" : "common",
+	"maxStack" : 25000,
+	"category" : "craftingMaterial",
+	"inventoryIcon" : "icon.png",
+	"description" : "test",
+	"shortdescription" : "Gun Part"
+}

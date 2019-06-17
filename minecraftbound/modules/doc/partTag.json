@@ -1,0 +1,5 @@
+{
+	"part" : "gun", //part from animatedParts
+	"tag" : "part1", //tag that is in your part "part1" : [0,0]
+	"tagEnd" : "part1end", //tag that is in your part "part1end" : [0,0]
+}

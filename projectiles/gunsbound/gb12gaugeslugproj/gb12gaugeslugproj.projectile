@@ -1,0 +1,15 @@
+{
+  "projectileName" : "gb12gaugeslugproj",
+  "image" : "gb12gaugeslugproj.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "actionOnHit" : [
+    {
+      "action" : "config",
+      "file" : "/fx/gbbulletimpact/action.config"
+    }
+  ],
+  "damageKind" : "default"
+}

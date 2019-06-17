@@ -1,0 +1,29 @@
+[	
+	"/minecraftbound/modules/data.lua",
+	"/minecraftbound/modules/timers.lua",
+	"/minecraftbound/modules/customSounds.lua",
+	"/minecraftbound/modules/requireUni.lua",
+
+	"/minecraftbound/modules/camera.lua",
+	"/minecraftbound/modules/aim.lua",
+
+	"/minecraftbound/modules/portraitprocessor.lua",
+	"/minecraftbound/modules/arms.lua",
+
+	"/minecraftbound/modules/animation.lua",
+	"/minecraftbound/modules/transforms.lua",
+
+	"/minecraftbound/modules/ammo.lua",
+	"/minecraftbound/modules/rotatingMagazine.lua",
+	"/minecraftbound/modules/gun.lua",
+
+	"/minecraftbound/modules/attachmentSystem.lua",
+	"/minecraftbound/modules/flashlight.lua",
+	"/minecraftbound/modules/laser.lua",
+	
+	"/minecraftbound/modules/ui.lua",
+	"/minecraftbound/modules/gun_ui.lua",
+	"/minecraftbound/modules/crosshair_ui.lua",
+
+	"/minecraftbound/modules/_GBDEBUG.lua"
+]
