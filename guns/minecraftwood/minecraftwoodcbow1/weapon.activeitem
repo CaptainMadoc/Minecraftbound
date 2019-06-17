@@ -115,7 +115,7 @@
 		"reload_dry" : "reload_dry"
 	},
 
-	"animation" : "/minecraftbound/base/base.animation",
+	"animation" : "/minecraftbound/base/woodcbow.animation",
 	"animationCustom" : {
 		"globalTagDefaults" : {
 			"magazine" : "mag.png"
@@ -141,6 +141,24 @@
 						"transformationGroups" : ["mag", "gun", "base"]
 					}
 				},
+				"bowempty" : {
+					"properties" : {
+						"zLevel" : 18,
+						"centered" : false,
+						"image" : "bowempty.png",
+						"offset" : [0.0, 0.0],
+						"transformationGroups" : ["bowempty", "gun", "base"]
+					}
+				},
+				"bowloaded" : {
+					"properties" : {
+						"zLevel" : 18,
+						"centered" : false,
+						"image" : "bowloaded.png",
+						"offset" : [0.0, 0.0],
+						"transformationGroups" : ["bowloaded", "gun", "base"]
+					}
+				},
 				"gunlever" : {
 					"properties" : {
 						"zLevel" : 18,
@@ -160,20 +178,20 @@
 
 						"casingpos" : [2.25, 1.125],
 
-						"attachment_muzzle_pos" : [4.125, 1],
-						"attachment_muzzle_end" : [4.25, 1], 
+						"attachment_muzzle_pos" : [2.8750, 1.12500],
+						"attachment_muzzle_end" : [3, 1.12500],
 
-						"attachment_tactical_pos" : [2.875, 1.125],
+						"attachment_tactical_pos" : [2.5, 1.125],
 						"attachment_tactical_end" : [3, 1.125],
 						
-						"attachment_sight_pos" : [1.5, 1.25],
+						"attachment_sight_pos" : [1.875, 1.25],
 						"attachment_sight_end" : [2, 1.25],
 						
-						"attachment_grip_pos" : [2.875,0.875],
-						"attachment_grip_end" : [3,0.875],
+						"attachment_grip_pos" : [2.375,0.875],
+						"attachment_grip_end" : [2.5,0.875],
 
-						"muzzle_begin" : [3.875, 1],
-						"muzzle_end" : [4, 1], 
+						"muzzle_begin" : [2.3, 1.25],
+						"muzzle_end" : [2.375, 1.25], 
 						"transformationGroups" : ["gun", "base"]
 					}
 				},
@@ -182,9 +200,9 @@
 				"muzzleFlash" : {
 					"properties" : {
 						"transformationGroups" : ["base"],
-						"offset" : [2.75, -0.5],
+						"offset" : [1.8, -0.375],
 						"zLevel" : 20,
-						"fullbright" : true,
+						"fullbright" : false,
 						"centered" : false
 					},
 					"partStates" : {
@@ -359,27 +377,32 @@
 			
 			"L_offset" : {
 				"transform" : {
-					"position" : [1.15625, 0.15625]
+					"position" : [0.5, 0.125]
+				}
+			},
+			"R_offset" : {
+				"transform" : {
+					"position" : [-0.25, 0.125]
 				}
 			},
 			"R_arm1" : {
 				"transform" : {
-					"rotation" : 15
+					"rotation" : -5
 				}
 			},
 			"R_arm2" : {
 				"transform" : {
-					"rotation" : -15
+					"rotation" : 0
 				}
 			},
 			"L_arm1" : {
 				"transform" : {
-					"rotation" : -5
+					"rotation" : 0
 				}
 			},
 			"L_arm2" : {
 				"transform" : {
-					"rotation" : 15
+					"rotation" : 0
 				}
 			},
 			
@@ -387,8 +410,20 @@
 			"gun" : {
 				"interpolated" : false,
 				"transform" : {
-					"rotationPoint" : [1.5625, 0.8125],
-					"position" : [-1.25, -0.50625]
+					"rotationPoint" : [0.625, 1.125],
+					"position" : [-0.75, -0.9375]
+				}
+			},
+			"bowempty" : {
+				"interpolated" : false,
+				"transform" : {
+					"scale" : [0, 0]
+				}
+			},
+			"bowloaded" : {
+				"interpolated" : false,
+				"transform" : {
+					"scale" : [1, 1]
 				}
 			},
 			"lever" : {
