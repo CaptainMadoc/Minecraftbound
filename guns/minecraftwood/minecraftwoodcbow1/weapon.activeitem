@@ -77,7 +77,7 @@
 	},
 	
 	"gunStats" : {
-		"damageMultiplier" : 2,
+		"damageMultiplier" : 1,
 		"bulletSpeedMultiplier" : 2,
 		"maxMagazine" : 1,
 		"aimLookRatio" : 0.125,
@@ -92,7 +92,7 @@
 	},
 
 	"gunSettings" : {
-		"fireSounds" : ["sounds/ak47.ogg"],
+		"fireSounds" : ["/guns/minecraftwood/minecraftwoodcbow1/cbowtwang.ogg"],
 		"fireTypes" : ["auto", "semi"],
 
 		"showCasings" : true,
@@ -121,8 +121,8 @@
 			"magazine" : "mag.png"
 		},
 		"sounds" : {
-			"cock" : ["/sfx/gun/reload/shotgun_reload_clip1.ogg"],
-			"cock2" : ["/sfx/gun/reload/shotgun_reload_clip2.ogg"],
+			"cock" : ["/guns/minecraftwood/minecraftwoodcbow1/pull.ogg"],
+			"cock2" : ["/guns/minecraftwood/minecraftwoodcbow1/clack.ogg"],
 			"boltback" : ["sounds/boltback.ogg"],
 			"boltforward" : ["sounds/boltforward.ogg"],
 			"magin" : ["sounds/magin.ogg"],
@@ -148,6 +148,15 @@
 						"image" : "bowempty.png",
 						"offset" : [0.0, 0.0],
 						"transformationGroups" : ["bowempty", "gun", "base"]
+					}
+				},
+				"bowmidload" : {
+					"properties" : {
+						"zLevel" : 18,
+						"centered" : false,
+						"image" : "bowmidload.png",
+						"offset" : [0.0, 0.0],
+						"transformationGroups" : ["bowmidload", "gun", "base"]
 					}
 				},
 				"bowloaded" : {
@@ -190,8 +199,8 @@
 						"attachment_grip_pos" : [2.375,0.875],
 						"attachment_grip_end" : [2.5,0.875],
 
-						"muzzle_begin" : [2.3, 1.25],
-						"muzzle_end" : [2.375, 1.25], 
+						"muzzle_begin" : [1.5, 1.375],
+						"muzzle_end" : [1.6, 1.375], 
 						"transformationGroups" : ["gun", "base"]
 					}
 				},
@@ -200,7 +209,7 @@
 				"muzzleFlash" : {
 					"properties" : {
 						"transformationGroups" : ["base"],
-						"offset" : [1.8, -0.375],
+						"offset" : [1.8, -0.75],
 						"zLevel" : 20,
 						"fullbright" : false,
 						"centered" : false
@@ -415,6 +424,12 @@
 				}
 			},
 			"bowempty" : {
+				"interpolated" : false,
+				"transform" : {
+					"scale" : [0, 0]
+				}
+			},
+			"bowmidload" : {
 				"interpolated" : false,
 				"transform" : {
 					"scale" : [0, 0]
